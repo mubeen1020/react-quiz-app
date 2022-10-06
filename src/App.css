@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App{
+  background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg') !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: greenyellow;
+}
+
+.head{
+  color:red
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.timer{
+  color:white;
+  background-color:black;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight:700px;
+  position: absolute;
+  bottom: 20px;
+  left: 80px;
+}
+.question{
+  width: 600px !important;
+  background-color:black;
+  border:2px solid white !important;
+  text-align: center !important;
+  border-radius:10px;
+  padding: 20px !important;
+  font-size: 20px  !important;
+
+}
